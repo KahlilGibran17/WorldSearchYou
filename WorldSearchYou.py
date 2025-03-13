@@ -295,15 +295,15 @@ def draw_human():
     
     # Draw body
     turtle.penup()
-    turtle.goto(-30, 80)  # Titik awal tubuh di tengah
-    turtle.setheading(0)  # Pastikan turtle menghadap kanan sebelum menggambar
+    turtle.goto(-30, 80)  # Dot Centre
+    turtle.setheading(0)  # Turtle Heading
     turtle.pendown()
     turtle.fillcolor("#f4a2a2")
     turtle.begin_fill()
     for _ in range(2):
-        turtle.forward(60)  # Lebar (lebih kecil agar lebih tegak)
+        turtle.forward(60)  # Width
         turtle.right(90)
-        turtle.forward(100)  # Tinggi (lebih besar agar lebih panjang)
+        turtle.forward(100)  # Height
         turtle.right(90)
     turtle.end_fill()
     
